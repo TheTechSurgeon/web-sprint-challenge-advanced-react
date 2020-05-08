@@ -18,8 +18,9 @@ export const useForm = (initialValue) => {
       
       
       return[
-          handleChanges,
-          values]
+        values,
+          handleChanges
+          ]
           
            
         
